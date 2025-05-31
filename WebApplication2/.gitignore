@@ -1,0 +1,87 @@
+﻿# .gitignore
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+publish/
+dist/
+
+.vs/
+.vscode/  
+.idea/
+
+# NuGet packages folder
+# *.lock.json
+packages/
+
+# Roslyn files
+*.roslyncodeanalysis.sarif.json
+
+# Temporary files
+*.tmp
+~$*
+
+# Log files
+*.log
+logs/
+*.log.* 
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coverlet.json
+
+
+# If you use client-side package managers like npm or yarn
+node_modules/
+
+# Dotenv files
+.env
+
+# Other common ignores
+Thumbs.db
+desktop.ini
+*.DS_Store
+
+# Rider Ignores (from JetBrains template)
+*.sln.iml
+*.DotSettings.user
+*.suo
+*.userprefs
+*.pidb
+*.డేటాబేసు
+*.డేటాబేసు-shm
+*.డేటాబేసు-wal
+*.VC.db
+*.pdb
+*.opendb
+*.[Rr]e[Ss]harper
+toolchains/
+cmake-build-*/
+*_i.c
+*_p.c
+*_i.h
+*_p.h
+*.ncb
+*~
+%*
+._*
+.#*
+*.bak
+*.orig
+*.swp
+*.pyc
+*.pyo
+*.db
+*.sqlite
+
+# If you use Docker
+docker-compose.override.yml
+.dockerignore 
